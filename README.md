@@ -1,3 +1,5 @@
+## Why I built this: As an omakase server, I often have to check reservations ahead of time to make sure the counter isn’t fragmented into small gaps. A small mistake in seat assignment can block an otherwise valid booking (especially when there are multiple seatings in a day). This project simulates a simple fix: an always-compact seating policy that automatically reassigns parties to keep seats contiguous.
+
 # Seatings-Reservation-Idea
 Omakase booking demo with customer + internal views; auto-compacts seats after every booking or cancellation.
 # Omakase Always-Compact Seating (Anti-Scattering Reservations)
@@ -14,8 +16,6 @@ Example on a 16-seat counter:
 - bookings: 1–2, 3–4, 9–14  
 - free seats: 5–8 (4 seats) and 15–16 (2 seats) → total free = 6  
 A party of 5 cannot book because no contiguous block of 5 exists, even though capacity is there.
-
-## Why I built this: As an omakase server, I often have to check reservations ahead of time to make sure the counter isn’t fragmented into small gaps. A small mistake in seat assignment can block an otherwise valid booking (especially when there are multiple seatings in a day). This project simulates a simple fix: an always-compact seating policy that automatically reassigns parties to keep seats contiguous.
 
 ## Solution: Always-Compact Policy
 After every booking or cancellation, the system **reassigns all reservations** so seating is packed contiguously starting from seat 1.  
