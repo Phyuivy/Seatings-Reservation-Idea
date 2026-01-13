@@ -22,13 +22,7 @@ After every booking or cancellation, the system **reassigns all reservations** s
 This eliminates fragmentation and prevents false sold-out outcomes.
 
 ## What’s in this repo
-- `notebook.ipynb` – interactive demo with **two views**:
-  - Customer Booking Page (book/cancel only)
-  - Internal System View (before/after maps + who moved)
-- `paper.md` – short write-up (problem, model, policy, evaluation)
-
-## How to run
-Open `notebook.ipynb` in Jupyter / VS Code notebooks and run all cells.
+- `omakase_app.ipynb' containing the full code
 
 ### Requirements
 - Python 3.9+
