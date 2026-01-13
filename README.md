@@ -1,4 +1,4 @@
-## Why I built this: As an omakase server, I often have to check reservations ahead of time to make sure the counter isn’t fragmented into small gaps. A small mistake in seat assignment can block an otherwise valid booking (especially when there are multiple seatings in a day). This project simulates a simple fix: an always-compact seating policy that automatically reassigns parties to keep seats contiguous.
+## Why I built this: As an omakase server, I often have to check reservations ahead of time to make sure the counter isn’t booked with gaps in between. A small mistake in seat assignment can block an otherwise valid booking (especially when there are multiple seatings in a day). This project simulates a simple fix that could be done: an always-compact seating policy that automatically reassigns parties to keep seats contiguous.
 
 # Seatings-Reservation-Idea
 Omakase booking demo with customer + internal views; auto-compacts seats after every booking or cancellation.
